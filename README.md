@@ -10,7 +10,7 @@
   <a href="./README.md"><b>English</b></a> •
   <a href="./README_CN.md">中文文档</a> •
   <a href="#workflow-showcase">Workflow Showcase</a> •
-  <a href="#fork-features">Fork Features</a> •
+  <a href="#features">Key Features</a> •
   <a href="#model-configuration">Model Configuration</a> •
   <a href="#console-language">Console Language</a> •
   <a href="#visual-location-cache">Cache Dashboard</a> •
@@ -31,12 +31,12 @@
   <a href="https://github.com/google-research/android_world"><img src="https://img.shields.io/badge/AndroidWorld-99%25%2B%20SOTA-success.svg" alt="AndroidWorld SOTA"></a>
 </p>
 
-<a id="fork-features"></a>
+<a id="features"></a>
 <a id="codex-client-integration"></a>
-## Fork Additions and Enhancements
+## Key Features and Enhancements
 
 > [!NOTE]
-> This repository is a community fork of [google/artemis](https://github.com/google/artemis), retaining upstream authorship and the Apache 2.0 license. The table below covers this fork's extensions; the later highlights, Flash/Pro profiles, and AndroidWorld results describe ARTEMIS's general capabilities.
+> This section summarizes the project's key capabilities. Flash/Pro profiles and AndroidWorld results describe ARTEMIS's general features.
 
 | Area | Main capabilities |
 |---|---|
@@ -102,7 +102,7 @@ Ensure an Android device (with **USB Debugging** enabled) or emulator is connect
 - **Install System Toolchains**: Detect and install ADB, scrcpy, FFmpeg, Codex CLI, Python (`uv`), Node.js, and project dependencies.
 - **Mount Global MCP Server & AI Agent Rules**: Prompt to automatically install global MCP configurations and the **Artemis Mobile Testing Mindset (`rules.md`)** into your AI IDEs (**Antigravity**, **Cursor**, **Claude Code**, **Codex**, **Windsurf**, **VS Code**, **Cline/Roo**, **OpenClaw**).
 
-This fork defaults to the locally signed-in **Codex client**, preferring the desktop client's bundled Codex before the CLI on PATH. Follow the first-use prompt to run `codex login`. Artemis uses Codex App Server without an OpenAI API key. See [Codex client provider](./docs/codex-client-provider.md) and [macOS support](./docs/macos-support.md).
+This project defaults to the locally signed-in **Codex client**, preferring the desktop client's bundled Codex before the CLI on PATH. Follow the first-use prompt to run `codex login`. Artemis uses Codex App Server without an OpenAI API key. See [Codex client provider](./docs/codex-client-provider.md) and [macOS support](./docs/macos-support.md).
 
 The local console's **System Setup & Prerequisites → AI Model Setup** includes Codex authentication diagnostics, a browser sign-in link, cancellation, and an explicit inference check. It checks credentials accessible to the backend process—not the desktop's current conversation. Sign-in success, model inference, and real-device execution are separate checks. See [backend authentication](./docs/codex-client-provider.md#后台认证诊断与登录入口).
 
@@ -531,17 +531,16 @@ ARTEMIS supports two execution profiles tailored for different automation requir
 Contributions are warmly welcomed!
 * **Star the repo** to follow updates and releases
 * Join the [Discord Community](https://discord.gg/wF2FN4WHGY) for technical discussions
-* Open an [Issue](https://github.com/Bigfit/function_check/issues) or submit a [Pull Request](https://github.com/Bigfit/function_check/pulls) to this fork
-* Follow the [upstream google/artemis project](https://github.com/google/artemis) for the original project roadmap and releases
+* Open an [Issue](https://github.com/Bigfit/function_check/issues) or submit a [Pull Request](https://github.com/Bigfit/function_check/pulls)
 
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
 
-This repository is based on [google/artemis](https://github.com/google/artemis) and includes source code developed by [Minitap, Inc.](https://github.com/minitap-ai/mobile-use). Original copyright and license notices are retained.
+Original copyright and license notices are retained in the source files.
 
 ### Third-party code
 
-Code not owned by Google lives under [`third_party/`](third_party/), one directory per upstream project, each with its own `LICENSE` and `METADATA`.
+Third-party code lives under [`third_party/`](third_party/), one directory per component, each with its own `LICENSE` and `METADATA`.
 
 - [`third_party/mobile_use`](third_party/mobile_use/) – portions of [mobile-use](https://github.com/minitap-ai/mobile-use) by Minitap, Inc., Apache License 2.0.

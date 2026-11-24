@@ -10,7 +10,7 @@
   <a href="./README.md">English</a> •
   <a href="./README_CN.md"><b>中文文档</b></a> •
   <a href="#workflow-showcase">全流程演示</a> •
-  <a href="#fork-features">Fork 特性</a> •
+  <a href="#features">核心特性</a> •
   <a href="#model-configuration">模型配置</a> •
   <a href="#console-language">界面语言</a> •
   <a href="#visual-location-cache">缓存后台</a> •
@@ -31,12 +31,12 @@
   <a href="https://github.com/google-research/android_world"><img src="https://img.shields.io/badge/AndroidWorld-99%25%2B%20SOTA-success.svg" alt="AndroidWorld SOTA"></a>
 </p>
 
-<a id="fork-features"></a>
+<a id="features"></a>
 <a id="codex-client-integration"></a>
-## 本 Fork 的新增与增强
+## 核心特性与增强
 
 > [!NOTE]
-> 本仓库是 [google/artemis](https://github.com/google/artemis) 的社区 Fork，保留上游作者署名与 Apache 2.0 许可证。下表集中介绍本 Fork 的扩展；后续核心亮点、Flash/Pro 与 AndroidWorld 介绍说明 ARTEMIS 的通用能力。
+> 本节集中介绍项目的核心能力；后续核心亮点、Flash/Pro 与 AndroidWorld 介绍说明 ARTEMIS 的通用功能。
 
 | 方向 | 主要能力 |
 |---|---|
@@ -523,17 +523,16 @@ ARTEMIS 提供两种运行模式以适应不同的自动化需求：
 欢迎通过以下方式参与项目建设：
 * **Star 本项目**以关注最新进展与更新
 * 加入 [Discord 社区](https://discord.gg/wF2FN4WHGY) 参与技术探讨与功能建议
-* 在本 Fork 提交 [Issue](https://github.com/Bigfit/function_check/issues) 或发起 [Pull Request](https://github.com/Bigfit/function_check/pulls)
-* 关注[上游 google/artemis 项目](https://github.com/google/artemis)，了解原项目路线图和版本发布
+* 提交 [Issue](https://github.com/Bigfit/function_check/issues) 或发起 [Pull Request](https://github.com/Bigfit/function_check/pulls)
 
 ## 开源许可证
 
 本项目基于 [Apache License 2.0](LICENSE) 协议开源。
 
-本仓库基于 [google/artemis](https://github.com/google/artemis)，并包含由 [Minitap, Inc.](https://github.com/minitap-ai/mobile-use) 开发的源代码；原始版权和许可证声明均予以保留。
+原始版权和许可证声明均在源文件中保留。
 
 ### 第三方代码
 
-非 Google 所有的代码位于 [`third_party/`](third_party/) 目录下，每个上游项目一个子目录，并各自附带 `LICENSE` 与 `METADATA`。
+第三方代码位于 [`third_party/`](third_party/) 目录下，每个组件一个子目录，并各自附带 `LICENSE` 与 `METADATA`。
 
 - [`third_party/mobile_use`](third_party/mobile_use/) – 来自 Minitap, Inc. 的 [mobile-use](https://github.com/minitap-ai/mobile-use) 的部分代码，Apache License 2.0。
