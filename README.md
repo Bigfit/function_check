@@ -112,7 +112,7 @@ CLI, MCP, SDK, and console readiness share the same App Server account check. A 
 
 ```bash
 # 1. Clone repo & navigate to directory
-git clone https://github.com/HJunLong601/artemis-codex.git && cd artemis-codex
+git clone https://github.com/Bigfit/function_check.git && cd artemis-codex
 
 # 2. One-click launch
 ./start.sh
@@ -122,7 +122,7 @@ git clone https://github.com/HJunLong601/artemis-codex.git && cd artemis-codex
 
 ```powershell
 # 1. Clone repo & navigate to directory
-git clone https://github.com/HJunLong601/artemis-codex.git
+git clone https://github.com/Bigfit/function_check.git
 cd artemis-codex
 
 # 2. One-click launch
@@ -428,7 +428,7 @@ Install the zero-runtime-dependency client on the development machine. ADB,
 agents, models, and image processing remain on the device host:
 
 ```powershell
-uv add "artemis-client @ git+https://github.com/HJunLong601/artemis-codex.git#subdirectory=packages/artemis-client"
+uv add "artemis-client @ git+https://github.com/Bigfit/function_check.git#subdirectory=packages/artemis-client"
 ```
 
 ```python
@@ -531,7 +531,7 @@ ARTEMIS supports two execution profiles tailored for different automation requir
 Contributions are warmly welcomed!
 * **Star the repo** to follow updates and releases
 * Join the [Discord Community](https://discord.gg/wF2FN4WHGY) for technical discussions
-* Open an [Issue](https://github.com/HJunLong601/artemis-codex/issues) or submit a [Pull Request](https://github.com/HJunLong601/artemis-codex/pulls) to this fork
+* Open an [Issue](https://github.com/Bigfit/function_check/issues) or submit a [Pull Request](https://github.com/Bigfit/function_check/pulls) to this fork
 * Follow the [upstream google/artemis project](https://github.com/google/artemis) for the original project roadmap and releases
 
 ## License

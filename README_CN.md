@@ -110,7 +110,7 @@ Codex 需要已登录且可访问所选模型的客户端；云 OCR 和其他 AP
 
 ```bash
 # 1. 克隆代码仓库并进入目录
-git clone https://github.com/HJunLong601/artemis-codex.git && cd artemis-codex
+git clone https://github.com/Bigfit/function_check.git && cd artemis-codex
 
 # 2. 一键启动
 ./start.sh
@@ -120,7 +120,7 @@ git clone https://github.com/HJunLong601/artemis-codex.git && cd artemis-codex
 
 ```powershell
 # 1. 克隆代码仓库并进入目录
-git clone https://github.com/HJunLong601/artemis-codex.git
+git clone https://github.com/Bigfit/function_check.git
 cd artemis-codex
 
 # 2. 一键启动
@@ -423,7 +423,7 @@ PYTHONPATH = "/path/to/artemis"
 开发电脑只需安装零运行时依赖的薄客户端；ADB、Agent、模型与图像处理全部留在设备主机：
 
 ```powershell
-uv add "artemis-client @ git+https://github.com/HJunLong601/artemis-codex.git#subdirectory=packages/artemis-client"
+uv add "artemis-client @ git+https://github.com/Bigfit/function_check.git#subdirectory=packages/artemis-client"
 ```
 
 ```python
@@ -523,7 +523,7 @@ ARTEMIS 提供两种运行模式以适应不同的自动化需求：
 欢迎通过以下方式参与项目建设：
 * **Star 本项目**以关注最新进展与更新
 * 加入 [Discord 社区](https://discord.gg/wF2FN4WHGY) 参与技术探讨与功能建议
-* 在本 Fork 提交 [Issue](https://github.com/HJunLong601/artemis-codex/issues) 或发起 [Pull Request](https://github.com/HJunLong601/artemis-codex/pulls)
+* 在本 Fork 提交 [Issue](https://github.com/Bigfit/function_check/issues) 或发起 [Pull Request](https://github.com/Bigfit/function_check/pulls)
 * 关注[上游 google/artemis 项目](https://github.com/google/artemis)，了解原项目路线图和版本发布
 
 ## 开源许可证

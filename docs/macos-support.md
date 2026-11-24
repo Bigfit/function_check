@@ -14,7 +14,7 @@ Xcode/Runtime 和真机签名仍需用户自行配置。详细步骤与真机验
 ## 首次运行
 
 ```bash
-git clone https://github.com/HJunLong601/artemis-codex.git
+git clone https://github.com/Bigfit/function_check.git
 cd artemis-codex
 ./start.sh
 ```
